@@ -1,0 +1,115 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "PRO",
+        "Description": "PRO Number",
+        "Value": "101624773"
+      },
+      "ShipmentType": {
+        "Code": "02",
+        "Description": "Freight"
+      },
+      "ShipmentWeight": {
+        "UnitOfMeasurement": {
+          "Code": "LBS"
+        },
+        "Weight": "200"
+      },
+      "Service": {
+        "Code": "308",
+        "Description": "UPS Freight LTL"
+      },
+      "ReferenceNumber": [{
+        "Code": "PO",
+        "Value": "345678"
+      }, {
+        "Code": "BL",
+        "Value": "456789"
+      }],
+      "CurrentStatus": {
+        "Code": "011",
+        "Description": "Delivered"
+      },
+      "PickupDate": "20051005",
+      "ServiceCenter": [{
+        "Type": {
+          "Code": "01",
+          "Description": "Delivery Service Center"
+        },
+        "Address": {
+          "City": "DOTHAN",
+          "StateProvinceCode": "AL"
+        }
+      }, {
+        "Type": {
+          "Code": "03",
+          "Description": "Pickup Service Center"
+        },
+        "Address": {
+          "City": "COLUMBIA",
+          "StateProvinceCode": "SC"
+        }
+      }, {
+        "Type": {
+          "Code": "02",
+          "Description": "Estimated Delivery Service Center"
+        },
+        "Address": {
+          "City": "DOTHAN",
+          "StateProvinceCode": "AL"
+        }
+      }],
+      "DeliveryDetail": [{
+        "Type": {
+          "Code": "02",
+          "Description": "Estimated Delivery"
+        },
+        "Date": "20051006"
+      }, {
+        "Type": {
+          "Code": "01",
+          "Description": "Delivery"
+        },
+        "Date": "20051006",
+        "Time": "125600"
+      }],
+      "NumberOfPackagingUnit": {
+        "Type": {
+          "Code": "01",
+          "Description": "Piece"
+        },
+        "Value": "1"
+      },
+      "Activity": [{
+        "ActivityLocation": {
+          "City": "DOTHAN",
+          "StateProvinceCode": "AL"
+        },
+        "Description": "SHIPMENT HAS BEEN DELIVERED TO THE CONSIGNEE.",
+        "Date": "20051006",
+        "Time": "125600",
+        "Trailer": "926715"
+      }, {
+        "ActivityLocation": {
+          "City": "COLUMBIA",
+          "StateProvinceCode": "SC"
+        },
+        "Description": "SHIPMENT HAS BEEN PICKED-UP.",
+        "Date": "20051005",
+        "Time": "180000",
+        "Trailer": "926705"
+      }]
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

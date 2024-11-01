@@ -1,0 +1,108 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "HBL",
+        "Description": "House Bill of Lading"
+      },
+      "ShipmentType": {
+        "Code": "02",
+        "Description": "Freight"
+      },
+      "ShipmentWeight": {
+        "UnitOfMeasurement": {
+          "Code": "KGS"
+        },
+        "Weight": "12500.0"
+      },
+      "Service": {
+        "Code": "336",
+        "Description": "UPS Ocean"
+      },
+      "CurrentStatus": {
+        "Code": "002",
+        "Description": "In Transit"
+      },
+      "Activity": [{
+        "ActivityLocation": {
+          "City": "Tokyo",
+          "StateProvinceCode": "13",
+          "CountryCode": "JP"
+        },
+        "Description": "ETA AT PORT OF DISCHARGE",
+        "Date": "20150430",
+        "Time": "180000"
+      }, {
+        "ActivityLocation": {
+          "City": "Portland",
+          "StateProvinceCode": "OR",
+          "CountryCode": "US"
+        },
+        "Description": "1ST RAIL TRANSFER",
+        "Date": "20150420",
+        "Time": "141824"
+      }, {
+        "ActivityLocation": {
+          "City": "Portland",
+          "StateProvinceCode": "OR",
+          "CountryCode": "US"
+        },
+        "Description": "ETD FROM LOAD PORT",
+        "Date": "20150419",
+        "Time": "100000"
+      }, {
+        "ActivityLocation": {
+          "City": "Seattle",
+          "StateProvinceCode": "WA",
+          "CountryCode": "US"
+        },
+        "Description": "RECEIVED INTO UPS POSSESSION",
+        "Date": "20150415",
+        "Time": "010000"
+      }],
+      "OriginPortDetail": {
+        "OriginPort": "USPDX",
+        "EstimatedDeparture": {
+          "Date": "20150419",
+          "Time": "100000"
+        }
+      },
+      "DestinationPortDetail": {
+        "DestinationPort": "JPTYO",
+        "EstimatedArrival": {
+          "Date": "20150515",
+          "Time": "051500"
+        }
+      },
+      "DescriptionOfGoods": "CUSTOMS TEST SHIPMENT",
+      "Manifest": {
+        "Date": "20150420",
+        "Time": "000000"
+      },
+      "CarrierActivityInformation": {
+        "CarrierId": "420RB1",
+        "Description": "Flight",
+        "Status": "Estimated",
+        "Arrival": {
+          "Date": "20150430",
+          "Time": "000000"
+        },
+        "Departure": {
+          "Date": "20150419",
+          "Time": "000000"
+        }
+      },
+      "FileNumber": "ER751105042015062"
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

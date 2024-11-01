@@ -1,0 +1,65 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "01",
+        "Description": "ShipmentIdentificationNumber",
+        "Value": "1Z12345E6605272234"
+      },
+      "ShipmentType": {
+        "Code": "01",
+        "Description": "Small Package"
+      },
+      "ShipperNumber": "12345E",
+      "Service": {
+        "Code": "007",
+        "Description": "WORLDWIDE EXPRESS"
+      },
+      "ReferenceNumber": {
+        "Code": "13",
+        "Value": "600X96S3ZVT"
+      },
+      "PickupDate": "20100517",
+      "Package": {
+        "TrackingNumber": "1Z12345E6605272234",
+        "Activity": {
+          "ActivityLocation": {
+            "Address": {
+              "City": "ANYTOWN",
+              "CountryCode": "IT"
+            },
+            "Description": "MAIL ROOM",
+            "SignedForByName": "DAVID ADAMS"
+          },
+          "Status": {
+            "Type": "D",
+            "Description": "DELIVERED",
+            "Code": "KM"
+          },
+          "Date": "20100518",
+          "Time": "100000"
+        },
+        "PackageWeight": {
+          "UnitOfMeasurement": {
+            "Code": "KGS"
+          },
+          "Weight": "6.00"
+        },
+        "ReferenceNumber": {
+          "Code": "19",
+          "Value": "ITALY1"
+        }
+      }
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

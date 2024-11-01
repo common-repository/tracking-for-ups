@@ -1,0 +1,102 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "01",
+        "Description": "ShipmentIdentificationNumber",
+        "Value": "1Z12345E0305271640"
+      },
+      "ShipmentType": {
+        "Code": "01",
+        "Description": "Small Package"
+      },
+      "ShipperNumber": "12345E",
+      "ShipmentWeight": {
+        "UnitOfMeasurement": {
+          "Code": "LBS"
+        },
+        "Weight": "40.00"
+      },
+      "Service": {
+        "Code": "003",
+        "Description": "GROUND"
+      },
+      "ReferenceNumber": {
+        "Code": "01",
+        "Value": "RIN1319"
+      },
+      "PickupDate": "20100423",
+      "Package": [{
+        "TrackingNumber": "1Z12345E0305271640",
+        "Activity": {
+          "ActivityLocation": {
+            "Address": {
+              "City": "ANYTOWN",
+              "StateProvinceCode": "GA",
+              "PostalCode": "30304",
+              "CountryCode": "US"
+            },
+            "Code": "MG",
+            "Description": "RECEPTION",
+            "SignedForByName": "D. DELUISE"
+          },
+          "Status": {
+            "Type": "D",
+            "Description": "DELIVERED",
+            "Code": "KM"
+          },
+          "Date": "20100429",
+          "Time": "120000"
+        },
+        "PackageWeight": {
+          "UnitOfMeasurement": {
+            "Code": "LBS"
+          },
+          "Weight": "20.00"
+        }
+      }, {
+        "TrackingNumber": "1Z12345E0393657226",
+        "Activity": {
+          "ActivityLocation": {
+            "Address": {
+              "City": "ANYTOWN",
+              "StateProvinceCode": "GA",
+              "PostalCode": "30304",
+              "CountryCode": "US"
+            },
+            "Code": "MG",
+            "Description": "RECEPTION",
+            "SignedForByName": "D. DELUISE"
+          },
+          "Status": {
+            "Type": "D",
+            "Description": "DELIVERED",
+            "Code": "KM"
+          },
+          "Date": "20100429",
+          "Time": "120000"
+        },
+        "PackageWeight": {
+          "UnitOfMeasurement": {
+            "Code": "LBS"
+          },
+          "Weight": "20.00"
+        },
+        "ReferenceNumber": {
+          "Code": "01",
+          "Value": "RIN1319"
+        }
+      }]
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

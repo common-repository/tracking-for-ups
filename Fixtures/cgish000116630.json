@@ -1,0 +1,71 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "03",
+        "Description": "Mail Innovations Tracking Number"
+      },
+      "ShipmentType": {
+        "Code": "03",
+        "Description": "Mail Innovations"
+      },
+      "ShipmentWeight": {
+        "UnitOfMeasurement": {
+          "Code": "LBS"
+        },
+        "Weight": "0.3950"
+      },
+      "Service": {
+        "Code": "701",
+        "Description": "UPS Mail Innovations"
+      },
+      "ReferenceNumber": {
+        "Code": "96",
+        "Value": "cgish000116630"
+      },
+      "PickupDate": "20061023",
+      "Package": {
+        "TrackingNumber": "010721024060620781",
+        "Activity": {
+          "ActivityLocation": {
+            "TransportFacility": {
+              "Type": "IC",
+              "Code": "BMC"
+            }
+          },
+          "Status": {
+            "Type": "D",
+            "Description": "Package delivered by local post office",
+            "Code": "D"
+          },
+          "Date": "20061027",
+          "Time": "1452"
+        },
+        "PackageWeight": {
+          "UnitOfMeasurement": {
+            "Code": "LBS"
+          },
+          "Weight": "0.3950"
+        },
+        "ReferenceNumber": {
+          "Code": "96",
+          "Value": "cgish000116630"
+        },
+        "AlternateTrackingInfo": {
+          "Type": "T",
+          "Value": "9102084383041101186729"
+        }
+      }
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

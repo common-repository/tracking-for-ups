@@ -1,0 +1,189 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "HAWB",
+        "Description": "House Air Way Bill"
+      },
+      "ShipmentType": {
+        "Code": "02",
+        "Description": "Freight"
+      },
+      "ShipmentWeight": {
+        "UnitOfMeasurement": {
+          "Code": "LBS"
+        },
+        "Weight": "472.0"
+      },
+      "Service": {
+        "Code": "331",
+        "Description": "UPS Express Freight"
+      },
+      "CurrentStatus": {
+        "Code": "003",
+        "Description": "Exception"
+      },
+      "SignedForByName": "BROKER",
+      "Activity": [{
+        "Description": "Bad weather",
+        "Date": "20101124",
+        "Time": "071600"
+      }, {
+        "ActivityLocation": {
+          "City": "El Paso",
+          "StateProvinceCode": "TX",
+          "CountryCode": "US"
+        },
+        "Description": "CONFIRMED ARRIVAL",
+        "Date": "20101018",
+        "Time": "100000"
+      }, {
+        "ActivityLocation": {
+          "City": "El Paso",
+          "StateProvinceCode": "TX",
+          "CountryCode": "US"
+        },
+        "Description": "DOCUMENTS TURNED OVER TO CLIENTS BROKER OR CONSIGNEE",
+        "Date": "20101018",
+        "Time": "091600"
+      }, {
+        "ActivityLocation": {
+          "City": "El Paso",
+          "StateProvinceCode": "TX",
+          "CountryCode": "US"
+        },
+        "Description": "ENTRY FILED",
+        "Date": "20101018",
+        "Time": "080000"
+      }, {
+        "ActivityLocation": {
+          "City": "El Paso",
+          "StateProvinceCode": "TX",
+          "CountryCode": "US"
+        },
+        "Description": "ON-HAND AT DESTINATION",
+        "Date": "20101018",
+        "Time": "024249"
+      }, {
+        "ActivityLocation": {
+          "City": "Hampshire",
+          "StateProvinceCode": "IL",
+          "CountryCode": "US"
+        },
+        "Description": "ARRIVED AT DESTINATION COUNTRY",
+        "Date": "20101018",
+        "Time": "020400"
+      }, {
+        "ActivityLocation": {
+          "City": "Cologne",
+          "StateProvinceCode": "NW",
+          "CountryCode": "DE"
+        },
+        "Description": "CONFIRMED DEPARTURE",
+        "Date": "20101015",
+        "Time": "153400"
+      }, {
+        "ActivityLocation": {
+          "City": "Amsterdam",
+          "CountryCode": "NL"
+        },
+        "Description": "DOCS RECEIVED FROM SHIPPER",
+        "Date": "20101015",
+        "Time": "153132"
+      }, {
+        "ActivityLocation": {
+          "City": "Amsterdam",
+          "CountryCode": "NL"
+        },
+        "Description": "DATE AVAILABLE TO SHIP",
+        "Date": "20101015",
+        "Time": "153132"
+      }, {
+        "ActivityLocation": {
+          "City": "Amsterdam",
+          "CountryCode": "NL"
+        },
+        "Description": "RECEIVED INTO UPS POSSESSION",
+        "Date": "20101015",
+        "Time": "140000"
+      }],
+      "OriginPortDetail": {
+        "OriginPort": "NLAMS",
+        "EstimatedDeparture": {
+          "Date": "20101015",
+          "Time": "153400"
+        }
+      },
+      "DestinationPortDetail": {
+        "DestinationPort": "USELP",
+        "EstimatedArrival": {
+          "Date": "20101019",
+          "Time": "120000"
+        }
+      },
+      "DescriptionOfGoods": "TUBES",
+      "CargoReady": {
+        "Date": "20101015",
+        "Time": "140000"
+      },
+      "Manifest": {
+        "Date": "20101015",
+        "Time": "000000"
+      },
+      "CarrierActivityInformation": [{
+        "CarrierId": "O01",
+        "Description": "Flight",
+        "Status": "Actual",
+        "Arrival": {
+          "Date": "20101015",
+          "Time": "160000"
+        },
+        "Departure": {
+          "Date": "20101015",
+          "Time": "153400"
+        },
+        "OriginPort": "COLOGNE/BONN K.A.APT",
+        "DestinationPort": "LOUISVILLE STANDIFORD FIELD"
+      }, {
+        "CarrierId": "HPSI15",
+        "Description": "Flight",
+        "Status": "Actual",
+        "Arrival": {
+          "Date": "20101018",
+          "Time": "020400"
+        },
+        "Departure": {
+          "Date": "20101016",
+          "Time": "224600"
+        },
+        "OriginPort": "LOUISVILLE STANDIFORD FIELD",
+        "DestinationPort": "EL PASO INTERNATIONAL APT"
+      }, {
+        "CarrierId": "208",
+        "Description": "Flight",
+        "Status": "Estimated",
+        "Arrival": {
+          "Date": "20101018",
+          "Time": "105600"
+        },
+        "Departure": {
+          "Date": "20101018",
+          "Time": "031500"
+        },
+        "OriginPort": "COLOGNE/BONN K.A.APT",
+        "DestinationPort": "LOUISVILLE STANDIFORD FIELD"
+      }],
+      "FileNumber": "669699902883100"
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

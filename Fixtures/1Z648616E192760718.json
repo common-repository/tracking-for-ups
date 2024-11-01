@@ -1,0 +1,65 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "01",
+        "Description": "ShipmentIdentificationNumber",
+        "Value": "1Z648616E192760718"
+      },
+      "ShipmentWeight": {
+        "UnitOfMeasurement": {
+          "Code": "KGS"
+        },
+        "Weight": "1500.00"
+      },
+      "Service": {
+        "Code": "096",
+        "Description": "UPS Worldwide Express freight"
+      },
+      "ReferenceNumber": [{
+        "Code": "03",
+        "Value": "999JJJ777"
+      }, {
+        "Code": "04",
+        "Value": "ASDF123"
+      }, {
+        "Code": "13",
+        "Value": "648616TDSZZ"
+      }],
+      "PickupDate": "20121004",
+      "Package": {
+        "TrackingNumber": "1Z648616E192760718",
+        "Activity": {
+          "ActivityLocation": {
+            "Address": {
+              "CountryCode": "FR"
+            }
+          },
+          "Status": {
+            "Type": "M",
+            "Description": "Order Processed: Ready for UPS",
+            "Code": "MP"
+          },
+          "Date": "20121004",
+          "Time": "135804"
+        },
+        "PackageWeight": {
+          "UnitOfMeasurement": {
+            "Code": "KGS"
+          },
+          "Weight": "1500.00"
+        }
+      }
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

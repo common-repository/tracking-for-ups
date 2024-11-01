@@ -1,0 +1,63 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "01",
+        "Description": "ShipmentIdentificationNumber",
+        "Value": "1Z12345E1305277940"
+      },
+      "ShipmentType": {
+        "Code": "01",
+        "Description": "Small Package"
+      },
+      "ShipperNumber": "12345E",
+      "Service": {
+        "Code": "013",
+        "Description": "NEXT DAY AIR SAVER"
+      },
+      "PickupDate": "20100302",
+      "Package": {
+        "TrackingNumber": "1Z12345E1305277940",
+        "Activity": {
+          "ActivityLocation": {
+            "Address": {
+              "City": "GRAND JUNCTION AIR S",
+              "StateProvinceCode": "CO",
+              "CountryCode": "US"
+            }
+          },
+          "Status": {
+            "Type": "I",
+            "Description": "ORIGIN SCAN",
+            "Code": "OR"
+          },
+          "Date": "20100505",
+          "Time": "010000"
+        },
+        "PackageWeight": {
+          "UnitOfMeasurement": {
+            "Code": "LBS"
+          },
+          "Weight": "0.00"
+        },
+        "ReferenceNumber": [{
+          "Code": "01",
+          "Value": "FLCAPA"
+        }, {
+          "Code": "08",
+          "Value": "TG5432"
+        }]
+      }
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

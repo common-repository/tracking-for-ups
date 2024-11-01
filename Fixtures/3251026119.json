@@ -1,0 +1,133 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": {
+        "Code": "HAWB",
+        "Description": "House Airway Bill",
+        "Value": "3251026119"
+      },
+      "ShipmentType": {
+        "Code": "02",
+        "Description": "Freight"
+      },
+      "ShipmentWeight": {
+        "UnitOfMeasurement": {
+          "Code": "LBS"
+        },
+        "Weight": "6.0"
+      },
+      "CurrentStatus": {
+        "Code": "004",
+        "Description": "Delivered Origin CFS"
+      },
+      "NumberOfPackagingUnit": [{
+        "Type": {
+          "Code": "01",
+          "Description": "Piece"
+        },
+        "Value": "20"
+      }, {
+        "Type": {
+          "Code": "02",
+          "Description": "Pallet"
+        },
+        "Value": "1"
+      }],
+      "Activity": [{
+        "ActivityLocation": {
+          "City": "ATLANTA",
+          "StateProvinceCode": "GA",
+          "CountryCode": "US"
+        },
+        "Description": "DOCS RECEIVED FROM SHIPPER",
+        "Date": "20060525",
+        "Time": "20060525"
+      }, {
+        "ActivityLocation": {
+          "City": "ATLANTA",
+          "StateProvinceCode": "GA",
+          "CountryCode": "US"
+        },
+        "Description": "DATE AVAILABLE TO SHIP",
+        "Date": "20060525",
+        "Time": "20060525"
+      }, {
+        "ActivityLocation": {
+          "City": "ATLANTA",
+          "StateProvinceCode": "GA",
+          "CountryCode": "US"
+        },
+        "Description": "ON HAND AT ORIGIN",
+        "Date": "20060525",
+        "Time": "20060525"
+      }, {
+        "ActivityLocation": {
+          "City": "ATLANTA",
+          "StateProvinceCode": "GA",
+          "CountryCode": "US"
+        },
+        "Description": "CONFIRMED DEPARTURE",
+        "Date": "20060525",
+        "Time": "20060525"
+      }, {
+        "ActivityLocation": {
+          "City": "ATLANTA",
+          "StateProvinceCode": "GA",
+          "CountryCode": "US"
+        },
+        "Description": "RECEIVED INTO UPS-SCS POSSESSION",
+        "Date": "20060525",
+        "Time": "20060525"
+      }],
+      "OriginPortDetail": {
+        "OriginPort": "USATL",
+        "EstimatedDeparture": {
+          "Date": "20060525",
+          "Time": "090000"
+        }
+      },
+      "DestinationPortDetail": {
+        "DestinationPort": "USSCK",
+        "EstimatedArrival": {
+          "Date": "20060525",
+          "Time": "120000"
+        }
+      },
+      "DescriptionOfGoods": "STUFF",
+      "CargoReady": {
+        "Date": "20060525",
+        "Time": "080000"
+      },
+      "Manifest": {
+        "Date": "20060525",
+        "Time": "000000"
+      },
+      "CarrierActivityInformation": {
+        "CarrierId": "234",
+        "Description": "Flight",
+        "Status": "Estimated",
+        "Arrival": {
+          "Date": "20060525",
+          "Time": "120000"
+        },
+        "Departure": {
+          "Date": "20060525",
+          "Time": "090000"
+        },
+        "OriginPort": "ATLANTA HARTSFIELD INTL APT",
+        "DestinationPort": "ALBUQUERQUE"
+      },
+      "FileNumber": "125699961453000"
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}

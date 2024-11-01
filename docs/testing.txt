@@ -1,0 +1,19 @@
+TRACKING NUMBER, SERVICE, RESPONSE
+
+1Z12345E0205271688 (Signature Availability), 2nd Day Air, Delivered
+1Z12345E6605272234, World Wide Express, Delivered
+1Z12345E0305271640, (Second Package: 1Z12345E0393657226), Ground, Delivered
+1Z12345E1305277940, Next Day Air Saver, ORIGIN SCAN
+1Z12345E6205277936, Day Air Saver, 2nd Delivery attempt
+1Z12345E020527079, Invalid Tracking Number
+1Z12345E1505270452, No Tracking Information Available
+990728071, UPS Freight LTL, In Transit
+3251026119, Delivered Origin CFS
+
+MI Tracking Number: 9102084383041101186729
+MI Reference Number: cgish000116630
+
+1Z648616E192760718, UPS Worldwide Express Freight, Order Process by UPS
+5548789114, UPS Express Freight, Response for UPS Air Freight
+ER751105042015062, UPS Ocean, Response for UPS Ocean Freight
+1ZWX0692YP40636269, UPS SUREPOST, Response for UPS SUREPOST

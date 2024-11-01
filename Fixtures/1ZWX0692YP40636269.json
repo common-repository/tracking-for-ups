@@ -1,0 +1,65 @@
+{
+  "TrackResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "Test 001"
+      }
+    },
+    "Shipment": {
+      "InquiryNumber": "",
+      "ShipmentWeight": {
+        "UnitOfMeasurement": {
+          "Code": "OZS"
+        },
+        "Weight": "0.60"
+      },
+      "Service": {
+        "Code": "092",
+        "Description": "UPS SUREPOST"
+      },
+      "ReferenceNumber": [{
+        "Code": "01",
+        "Value": "REFERENCE 1"
+      }, {
+        "Code": "01",
+        "Value": "REFERENCE 2"
+      }],
+      "PickupDate": "20151020",
+      "Package": {
+        "TrackingNumber": "1ZWX0692YP40636269",
+        "Activity": {
+          "ActivityLocation": {
+            "Address": {
+              "CountryCode": "US"
+            }
+          },
+          "Status": {
+            "Type": "M",
+            "Description": "BILLING INFORMATION RECEIVED",
+            "Code": "MP"
+          },
+          "Date": "20151020",
+          "Time": "124519"
+        },
+        "PackageWeight": {
+          "UnitOfMeasurement": {
+            "Code": "OZS"
+          },
+          "Weight": "0.60"
+        },
+        "ReferenceNumber": [{
+          "Code": "01",
+          "Value": "REFERENCE 1"
+        }, {
+          "Code": "01",
+          "Value": "REFERENCE 2"
+        }]
+      }
+    },
+    "Disclaimer": "You are using UPS tracking service on customer integration test environment, please switch to UPS production environment once you finish the test. The URL is https://onlinetools.ups.com/webservices/Track"
+  }
+}
